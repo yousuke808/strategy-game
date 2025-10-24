@@ -2,14 +2,18 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>戦略ゲーム</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>グラフ盤面</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>戦略ゲーム：試作版</h1>
-  <div id="game-board"></div>
+  <h1>戦略ゲーム：グラフ盤面</h1>
+  <div id="board">
+    <!-- SVG for edges -->
+    <svg id="connections"></svg>
+    <!-- Nodes will be drawn by JS -->
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
